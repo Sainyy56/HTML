@@ -1,0 +1,223 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Metadata required by the user -->
+    <meta name="author" content="Sainy Verma">
+    <meta name="description" content="Personal profile and HTML practice page for Sainy Verma.">
+    <title>Simple HTML Practice — Sainy Verma</title>
+</head>
+<body>
+    <!-- Page title and a main heading -->
+    <header>
+    <h1>Hi — I'm Sainy Verma</h1>
+    <p>A short practice page demonstrating basic HTML elements.</p>
+    </header>
+
+    <!-- Two paragraphs describing yourself -->
+    <section>
+    <!-- Paragraph 1 -->
+    <p>
+        I'm a first-year college student interested in web development, AI, and design. I like building small projects that combine creativity and problem solving.
+    </p>
+    <!-- Paragraph 2 -->
+    <p>
+        I enjoy writing, taking photos, and learning new programming languages. I experiment with small websites and practice HTML/CSS/JavaScript to improve.
+    </p>
+    </section>
+
+<!-- Demonstration of all heading tags h1 to h6 -->
+    <section>
+        <h2>Heading tags demo (h1 &ndash; h6)</h2>
+        <h1>H1 — Main heading</h1>
+        <h2>H2 — Secondary heading</h2>
+        <h3>H3 — Tertiary heading</h3>
+        <h4>H4 — Smaller heading</h4>
+        <h5>H5 — Even smaller</h5>
+        <h6>H6 — Smallest heading</h6>
+    </section>
+
+<!-- Bold and italic text example -->
+    <section>
+        <h2>Bold and italic example</h2>
+        <p>
+            This paragraph has some <strong>bold text</strong>, some <em>italic text</em>, and some <strong><em>bold + italic</em></strong> for emphasis.
+        </p>
+    </section>
+
+<!-- Unordered list of favorite foods -->
+    <section>
+        <h2>Favorite foods</h2>
+        <ul>
+            <li>Pizza</li>
+            <li>Chole Bhature</li>
+            <li>Mangoes</li>
+            <li>Paneer tikka</li>
+        </ul>
+    </section>
+
+<!-- Ordered list showing daily routine -->
+    <section>
+    <h2>Daily routine (ordered)</h2>
+    <ol>
+        <li>Wake up and freshen up</li>
+        <li>Attend classes / study</li>
+        <li>Work on projects or practice coding</li>
+        <li>Exercise / relax</li>
+        <li>Sleep</li>
+    </ol>
+    </section>
+
+<!-- Hyperlink to favorite website -->
+    <section>
+    <h2>Favorite website</h2>
+    <p>My favorite site for learning is <a href="https://www.freecodecamp.org" target="_blank" rel="noopener">freeCodeCamp</a>. Click to visit.</p>
+    </section>
+
+<!-- Insert an image from the internet -->
+    <section>
+    <h2>Remote image</h2>
+    <p>Below is an image loaded from the internet (Unsplash):</p>
+    <img class="thumb" src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=0" alt="Sample unsplash image">
+    </section>
+
+<!-- Table showing students and marks -->
+    <section>
+    <h2>Students & Marks</h2>
+    <table>
+        <thead>
+        <tr><th>Name</th><th>Subject</th><th>Marks</th></tr>
+        </thead>
+    <tbody>
+        <tr><td>Aisha</td><td>Math</td><td>88</td></tr>
+        <tr><td>Rohan</td><td>Science</td><td>92</td></tr>
+        <tr><td>Neha</td><td>English</td><td>85</td></tr>
+    </tbody>
+    </table>
+    </section>
+
+<!-- Simple contact form (name, email, message) -->
+    <section>
+    <h2>Contact form</h2>
+    <form action="#" method="post">
+        <label for="cname">Name:</label><br>
+        <input type="text" id="cname" name="cname" required><br><br>
+
+        <label for="cemail">Email:</label><br>
+        <input type="email" id="cemail" name="cemail" required><br><br>
+
+        <label for="cmessage">Message:</label><br>
+        <textarea id="cmessage" name="cmessage" rows="4"></textarea><br><br>
+
+        <button type="submit">Send</button>
+    </form>
+    </section>
+
+<!-- Checkbox list of hobbies -->
+    <section>
+    <h2>Hobbies (checkboxes)</h2>
+    <form>
+        <label><input type="checkbox" name="hobby" value="photography"> Photography</label><br>
+        <label><input type="checkbox" name="hobby" value="reading"> Reading</label><br>
+        <label><input type="checkbox" name="hobby" value="coding"> Coding</label><br>
+        <label><input type="checkbox" name="hobby" value="travel"> Travel</label><br>
+    </form>
+    </section>
+
+<!-- Dropdown menu for favourite programming language -->
+    <section>
+    <h2>Favorite programming language (dropdown)</h2>
+    <label for="lang">Choose:</label>
+    <select id="lang" name="lang">
+      <option value="python">Python</option>
+      <option value="javascript">JavaScript</option>
+      <option value="c++">C++</option>
+      <option value="java">Java</option>
+    </select>
+  </section>
+
+  <!-- 3x3 product table -->
+  <section>
+    <h2>Products (3x3 table)</h2>
+    <table>
+      <tr><th>Product</th><th>Category</th><th>Price</th></tr>
+      <tr><td>Wireless Mouse</td><td>Accessories</td><td>₹799</td></tr>
+      <tr><td>Notebook</td><td>Stationery</td><td>₹120</td></tr>
+      <tr><td>Earbuds</td><td>Audio</td><td>₹1499</td></tr>
+    </table>
+  </section>
+
+  <!-- Line break and horizontal rule between two paragraphs -->
+  <section>
+    <h2>Break & horizontal line</h2>
+    <p>Paragraph above the break.<br><br>Now a visible separation follows.</p>
+    <hr>
+    <p>Paragraph below the horizontal line.</p>
+  </section>
+
+  <!-- Nested list example -->
+  <section>
+    <h2>Nested lists</h2>
+    <ul>
+      <li>Programming
+        <ul>
+          <li>Python</li>
+          <li>JavaScript</li>
+        </ul>
+      </li>
+      <li>Hobbies
+        <ul>
+          <li>Photography</li>
+          <li>Travel</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Image that links to another webpage -->
+  <section>
+    <h2>Linked image</h2>
+    <p>Click the image to visit MDN Web Docs:</p>
+    <a href="https://developer.mozilla.org" target="_blank" rel="noopener">
+      <img src="https://developer.mozilla.org/static/img/opengraph-logo.72382e605ce3.png" alt="MDN Logo" style="max-width:160px;">
+    </a>
+  </section>
+
+  <!-- Registration form: name, age, email, password -->
+  <section>
+    <h2>Registration form</h2>
+    <form action="#" method="post">
+      <label for="rname">Name:</label><br>
+      <input type="text" id="rname" name="rname" required><br><br>
+
+      <label for="rage">Age:</label><br>
+      <input type="number" id="rage" name="rage" min="1" max="120" required><br><br>
+
+      <label for="remail">Email:</label><br>
+      <input type="email" id="remail" name="remail" required><br><br>
+
+      <label for="rpass">Password:</label><br>
+      <input type="password" id="rpass" name="rpass" required><br><br>
+
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <!-- Personal profile section combining everything briefly -->
+  <section>
+    <h2>Personal profile</h2>
+    <p>
+      I am a college student passionate about building accessible, useful web projects. I practice by creating small pages that include headings, lists, images, forms and tables. I love learning and sharing knowledge.
+    </p>
+    <p>Thank you for viewing this practice page.</p>
+  </section>
+
+  <!-- Footer comment and note -->
+  <!-- End of document -->
+</body>
+</html>
+
+
+
