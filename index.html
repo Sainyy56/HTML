@@ -6,10 +6,17 @@
   <meta name="author" content="Sainy Verma">
   <meta name="description" content="Simple HTML practice page">
 </head>
+<style>
+  body{
+    background-color: rgb(106, 194, 238);
+    cursor: url('awle.png') 5 5, auto;
+  }
+</style>
 <body>
 
+
   <h1>Hi, I'm Sainy Verma</h1>
-  <p>I’m a first-year college student interested in AI, coding, and design.</p>
+  <p>I'm a first-year college student interested in AI, coding, and design.</p>
   <p>I enjoy writing, photography, and learning new things every day.</p>
 
   <h2>Headings (h1 to h6)</h2>
@@ -28,10 +35,13 @@
     <li>Pizza</li>
     <li>Mango</li>
     <li>Chole Bhature</li>
+    <ul>
+      <li>chawala's chole bhature</li>
+    </ul>
   </ul>
 
   <h2>My Daily Routine</h2>
-  <ol>
+  <ol type="I">
     <li>Wake up</li>
     <li>Study</li>
     <li>Exercise</li>
@@ -42,7 +52,7 @@
   <a href="https://www.freecodecamp.org" target="_blank">Visit FreeCodeCamp</a>
 
   <h2>Image from Internet</h2>
-  <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d" width="300">
+  <img src="https://pin.it/36mSL3qjD" alt="diwali" width="300">
 
   <h2>Student Marks</h2>
   <table border="1">
@@ -75,10 +85,29 @@
 
   <h2>Product Details (3x3 Table)</h2>
   <table border="1">
-    <tr><th>Product</th><th>Category</th><th>Price</th></tr>
-    <tr><td>Mouse</td><td>Accessory</td><td>₹799</td></tr>
-    <tr><td>Notebook</td><td>Stationery</td><td>₹120</td></tr>
-    <tr><td>Earbuds</td><td>Audio</td><td>₹1499</td></tr>
+    <caption>
+
+    </caption>
+    <tr>
+      <th>Product</th>
+      <th>Category</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Mouse</td>
+      <td>Accessory</td>
+      <td>₹799</td>
+    </tr>
+    <tr>
+      <td>Notebook</td>
+      <td>Stationery</td>
+      <td>₹120</td>
+    </tr>
+    <tr>
+      <td>Earbuds</td>
+      <td>Audio</td>
+      <td>₹1499</td>
+    </tr>
   </table>
 
   <h2>Break and Horizontal Line</h2>
@@ -115,6 +144,12 @@
     Password: <input type="password"><br><br>
     <button>Register</button>
   </form>
+  <dl>
+    <dt>punjab</dt>
+    <dd>ludhiana</dd>
+    <dt>phase II</dt>
+    <dd>school</dd>
+  </dl>
 
 </body>
 </html>
